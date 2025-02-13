@@ -42,10 +42,59 @@
                 <h1>SORTEADOR <br>DE NUMBERS</br></h1>
                 <div class="info">
                     <div>
-                        <img src="" alt="">
+                        <img src="./src/assets/icons/Comunication.svg" alt="Icone de informação">
+                        <span>Como funciona o sorteador de números?</span>
+                        <p>O sorteador ultiliza um algoritimo de geração aleatória para criar números dentro do intervalo.</p>
+                    </div>
+                    <div>
+                        <img src="./src/assets/icons/Comunication.svg" alt="Icone de informação">
+                        <span>Posso escolher o intervalo dos números?</span>
+                        <p>Sim, você pode definir valores mínimo e máximo para o intervalo dos números sorteados.</p>
                     </div>
                 </div>
             </div>
+
+            <div id="area-number-draw">
+                <div>
+                    <h3>QUERO SORTEAR</h3>
+                    <p>defina o itervalo e a quantidade de números, clique em "Sortear" e veja os resultados na tela. É rapido e facil!</p>
+                </div>
+                <form>
+                    <div class="inputs">
+                        <div class="number-of-draws">
+                            <label for="numbers">NÚMEROS</label>
+                            <input type="text" name="numbers" id="numbers" placeholder="0">
+                        </div>
+                        <div class="number-of-draws">
+                            <label for="number-min">DE</label>
+                            <input type="text" name="number-min" id="number-min" placeholder="0">
+                        </div>
+                        <div class="number-of-draws">
+                            <label for="number-max">ATÉ</label>
+                            <input type="text" name="number-max" id="number-max" placeholder="0">
+                        </div>
+                    </div>
+
+                    <div class="repeat-switch">
+                        <input type="checkbox" name="repeat" id="repeat">
+                        <label for="repeat">
+                            <div class="switch">
+                                <div class="switch-circle"></div>
+                            </div>
+                            <p>Não repetir números</p>
+                        </label>
+                    </div>
+
+                    <button type="submit">
+                        SORTEAR
+                    </button>
+                </form>
+            </div>
+
+            <div id="area-result">
+                
+            </div>
+            
         </main>
     </div>
 </body>
