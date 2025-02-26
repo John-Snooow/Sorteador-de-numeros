@@ -61,3 +61,18 @@ a{
     text-decoration: none;
 }
 
+li{
+    list-style: none;
+}
+
+button{
+    transform: .2s;
+}
+
+body{
+    padding: 76px 20px;
+    width: 100%;
+    height: 100vh;
+    background-color: var(--background-primary);
+    background-image: url(../assets/images/cover-background.png); 
+}
