@@ -75,4 +75,22 @@ body{
     height: 100vh;
     background-color: var(--background-primary);
     background-image: url(../assets/images/cover-background.png); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: var(--content-primary);
+    font-family: var(--font-family-sora);
 }
+
+&::before{
+    content: "";
+    display: block;
+    position: absolute;
+    z-index: -100;
+    left: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(transparent, #000);
+}
+
